@@ -26,6 +26,14 @@ Segun Arulogun Gabriel, known as Shigosag, is a Nigerian entrepreneur, civil eng
 - Customer experience auditing in the banking sector
 - Self-taught programmer (learning through freeCodeCamp and practical projects)
 
+## 💡 Interests
+
+- Artificial Intelligence
+- Software Development
+- Automation Systems
+- Entrepreneurship
+- Chess
+- Continuous Learning
 
 ## 📫 Connect
 - GitHub: https://github.com/Shigosag
