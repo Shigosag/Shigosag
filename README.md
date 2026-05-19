@@ -7,7 +7,7 @@ Segun Arulogun Gabriel, known as Shigosag, is a Nigerian entrepreneur, civil eng
 🧠 Passionate about technology, business, AI, and problem-solving
 
 ## 🔥 Skills
-- Web, Mobile, Desktop and Software Development
+- Web, Mobile, and Desktop Development
 - AI-Assisted Development
 - Automation
 - CLI Applications
@@ -18,6 +18,14 @@ Segun Arulogun Gabriel, known as Shigosag, is a Nigerian entrepreneur, civil eng
 - Building real-world software projects
 - AI-powered development workflows
 - Automation and productivity tools
+
+## 📚 Background
+
+- Civil Engineering graduate from The Polytechnic Ibadan
+- Experience in entrepreneurship and business operations
+- Customer experience auditing in the banking sector
+- Self-taught programmer (learning through freeCodeCamp and practical projects)
+
 
 ## 📫 Connect
 - GitHub: https://github.com/Shigosag
