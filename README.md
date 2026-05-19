@@ -1,4 +1,4 @@
-# Hi, I'm Segun Arulogun Gabriel (Shigosag) 👋
+# Hi, I'm Segun Arulogun Gabriel (Shigosag)
 
 Segun Arulogun Gabriel, known as Shigosag, is a Nigerian entrepreneur, civil engineering graduate, forex trader, self-taught coder, and chess enthusiast.
 
@@ -11,13 +11,15 @@ Segun Arulogun Gabriel, known as Shigosag, is a Nigerian entrepreneur, civil eng
 - AI-Assisted Development
 - Automation
 - CLI Applications
-- Problem Solving & Logical System
+- Problem Solving & Logical Systems
 - Git & GitHub
 
 ## 🛠️ Current Focus
 - Building real-world software projects
 - AI-powered development workflows
 - Automation and productivity tools
+- AI Tools Integration
+- Improving software development skills through practice
 
 ## 📚 Background
 
