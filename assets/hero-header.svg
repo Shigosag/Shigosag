@@ -1,0 +1,196 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Segun Arulogun Gabriel (Shigosag) Command Deck</title>
+  <desc id="desc">Animated Cyberpunk Command Deck for Segun Arulogun Gabriel (Shigosag)</desc>
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="50%" stop-color="#07152E"/>
+      <stop offset="100%" stop-color="#0B061A"/>
+    </linearGradient>
+
+    <!-- Spectrum Glow Gradient -->
+    <linearGradient id="neonSpectrum" x1="0" y1="0" x2="1280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="30%" stop-color="#38BDF8"/>
+      <stop offset="60%" stop-color="#A78BFA"/>
+      <stop offset="85%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#FBBF24"/>
+    </linearGradient>
+
+    <!-- Core Radial Gradient -->
+    <radialGradient id="orbCore" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="35%" stop-color="#38BDF8"/>
+      <stop offset="70%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="hudGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#38BDF8" stroke-width="0.5" opacity="0.08"/>
+      <circle cx="1" cy="1" r="1" fill="#38BDF8" opacity="0.15"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="coreGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect width="1280" height="320" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <!-- Frame Background -->
+  <g clip-path="url(#frameClip)">
+    <rect width="1280" height="320" fill="url(#bgGrad)"/>
+    <rect width="1280" height="320" fill="url(#hudGrid)"/>
+    <!-- Ambient Orbital Lighting -->
+    <circle cx="1180" cy="40" r="140" fill="#38BDF8" opacity="0.06">
+      <animate attributeName="r" values="120;160;120" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="80" cy="300" r="120" fill="#F43F5E" opacity="0.05">
+      <animate attributeName="r" values="100;140;100" dur="7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Border Frame with animated glow -->
+  <rect x="1.5" y="1.5" width="1277" height="317" rx="23" stroke="url(#neonSpectrum)" stroke-opacity="0.35" stroke-width="2"/>
+
+  <!-- Top System Status Header -->
+  <g transform="translate(48, 32)">
+    <rect width="1184" height="42" rx="14" fill="#030A17" fill-opacity="0.75" stroke="#164E63" stroke-width="1.2"/>
+    <circle cx="22" cy="21" r="5" fill="#22C55E" filter="url(#coreGlow)">
+      <animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="38" y="25" fill="#86EFAC" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="800" letter-spacing="1.5">NODE_SYS // ONLINE</text>
+    <text x="210" y="25" fill="#475569" font-family="Consolas, monospace" font-size="11">//</text>
+    <text x="232" y="25" fill="#67E8F9" font-family="Consolas, 'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1">HOST: shigosag.github.io</text>
+    <g transform="translate(1015, 10)">
+      <rect width="154" height="22" rx="11" fill="#15102B" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="77" y="15" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, monospace" font-size="9" font-weight="800" letter-spacing="1">PRODUCTION_READY</text>
+    </g>
+  </g>
+
+  <!-- Left: Main Identity Deck -->
+  <g transform="translate(48, 108)">
+    <text x="0" y="20" fill="#38BDF8" font-family="Consolas, 'Courier New', monospace" font-size="13" font-weight="800" letter-spacing="3">SOFTWARE ENGINEER &amp; ARCHITECT</text>
+    <text x="0" y="74" fill="#FFFFFF" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="46" font-weight="900" letter-spacing="-1">
+      Segun Arulogun <tspan fill="#38BDF8">Gabriel</tspan>
+    </text>
+    <text x="0" y="112" fill="#94A3B8" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">
+      Crafting scalable full-stack architectures, high-performance engines, and secure systems.
+    </text>
+
+    <!-- Dynamic Tech Badges -->
+    <g transform="translate(0, 138)">
+      <!-- Badge 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="138" height="28" rx="8" fill="#082F49" stroke="#0EA5E9" stroke-width="1"/>
+        <text x="69" y="18" text-anchor="middle" fill="#BAE6FD" font-family="Consolas, monospace" font-size="10" font-weight="700">FULL-STACK CORE</text>
+      </g>
+      <!-- Badge 2 -->
+      <g transform="translate(150, 0)">
+        <rect width="138" height="28" rx="8" fill="#25164A" stroke="#8B5CF6" stroke-width="1"/>
+        <text x="69" y="18" text-anchor="middle" fill="#DDD6FE" font-family="Consolas, monospace" font-size="10" font-weight="700">SYSTEM ARCHITECT</text>
+      </g>
+      <!-- Badge 3 -->
+      <g transform="translate(300, 0)">
+        <rect width="138" height="28" rx="8" fill="#06372E" stroke="#22C55E" stroke-width="1"/>
+        <text x="69" y="18" text-anchor="middle" fill="#DCFCE7" font-family="Consolas, monospace" font-size="10" font-weight="700">PERFORMANCE FIRST</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Center: Rolling / Flipping Animated Tech Orbit -->
+  <g transform="translate(685, 188)">
+    <!-- Radial Core Glow -->
+    <circle r="42" fill="url(#orbCore)" opacity="0.45">
+      <animate attributeName="r" values="36;46;36" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="12" fill="#38BDF8" filter="url(#coreGlow)" opacity="0.9"/>
+    <circle r="5" fill="#FFFFFF"/>
+
+    <!-- Ring 1: Continuous Horizontal Spin -->
+    <g transform="rotate(-20)">
+      <ellipse rx="68" ry="24" fill="none" stroke="#0EA5E9" stroke-width="1.6" stroke-dasharray="10 14" opacity="0.75" filter="url(#coreGlow)">
+        <animate attributeName="stroke-dashoffset" values="0;-160" dur="4s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Orbiting Photon 1 -->
+      <circle r="4" fill="#FFFFFF" filter="url(#coreGlow)">
+        <animateMotion dur="4s" repeatCount="indefinite" path="M-68 0 A68 24 0 1 0 68 0 A68 24 0 1 0 -68 0"/>
+      </circle>
+    </g>
+
+    <!-- Ring 2: 3D Rolling / Vertical Flip Orbit -->
+    <g transform="rotate(55)">
+      <ellipse rx="58" ry="18" fill="none" stroke="#A78BFA" stroke-width="1.6" opacity="0.65" stroke-dasharray="6 12">
+        <animate attributeName="ry" values="18;2;18;2;18" dur="4.6s" repeatCount="indefinite"/>
+        <animate attributeName="rx" values="58;50;58;50;58" dur="4.6s" repeatCount="indefinite"/>
+      </ellipse>
+      <!-- Orbiting Photon 2 -->
+      <circle r="3.5" fill="#A78BFA" filter="url(#coreGlow)">
+        <animateMotion dur="3.2s" repeatCount="indefinite" path="M-58 0 A58 18 0 1 0 58 0 A58 18 0 1 0 -58 0"/>
+      </circle>
+    </g>
+
+    <!-- Micro Orbit Label -->
+    <text y="58" text-anchor="middle" fill="#64748B" font-family="Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1.5">ORBIT // ACTIVE</text>
+  </g>
+
+  <!-- Right: Holographic Terminal Box -->
+  <g transform="translate(860, 96)">
+    <rect width="372" height="186" rx="18" fill="#030A17" fill-opacity="0.85" stroke="#164E63" stroke-width="1.2"/>
+    <rect width="372" height="34" rx="18" fill="#0A162B"/>
+    <circle cx="20" cy="17" r="4.5" fill="#F43F5E"/>
+    <circle cx="36" cy="17" r="4.5" fill="#FBBF24"/>
+    <circle cx="52" cy="17" r="4.5" fill="#22C55E"/>
+    <text x="74" y="21" fill="#94A3B8" font-family="Consolas, monospace" font-size="11">runtime.telemetry</text>
+
+    <!-- Live Terminal Commands -->
+    <g transform="translate(20, 58)" font-family="Consolas, 'Courier New', monospace" font-size="12">
+      <text fill="#22D3EE">$ system.status</text>
+      <rect x="140" y="-12" width="7" height="15" rx="1" fill="#38BDF8">
+        <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+      </rect>
+      
+      <g transform="translate(0, 26)">
+        <text fill="#64748B">» latency</text>
+        <text x="120" fill="#94A3B8">............</text>
+        <text x="240" fill="#86EFAC">12ms [OPTIMAL]</text>
+      </g>
+      <g transform="translate(0, 50)">
+        <text fill="#64748B">» security</text>
+        <text x="120" fill="#94A3B8">...........</text>
+        <text x="240" fill="#38BDF8">HARDENED</text>
+      </g>
+      <g transform="translate(0, 74)">
+        <text fill="#64748B">» deployment</text>
+        <text x="120" fill="#94A3B8">.........</text>
+        <text x="240" fill="#C4B5FD">ACTIVE</text>
+      </g>
+    </g>
+
+    <!-- Animated progress bar -->
+    <g transform="translate(20, 156)">
+      <rect width="332" height="6" rx="3" fill="#0F1C30"/>
+      <rect width="332" height="6" rx="3" fill="url(#neonSpectrum)" filter="url(#coreGlow)">
+        <animate attributeName="width" values="24;332;180;332;24" dur="5s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+
+  <!-- Bottom Animated Traveling Energy Rail -->
+  <path id="energyPath" d="M48 304H1232" stroke="#1E293B" stroke-width="2"/>
+  <path d="M48 304H1232" stroke="url(#neonSpectrum)" stroke-width="3" stroke-dasharray="14 26" filter="url(#coreGlow)">
+    <animate attributeName="stroke-dashoffset" values="0;-160" dur="2.5s" repeatCount="indefinite"/>
+  </path>
+  <circle r="4" fill="#FFFFFF" filter="url(#coreGlow)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M48 304H1232"/>
+  </circle>
+</svg>
