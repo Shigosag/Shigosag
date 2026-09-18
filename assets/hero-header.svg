@@ -108,7 +108,7 @@
   </g>
 
   <!-- Center: Rolling / Flipping Animated Tech Orbit -->
-  <g transform="translate(770, 150)">
+  <g transform="translate(770, 188)">
     <!-- Radial Core Glow -->
     <circle r="42" fill="url(#orbCore)" opacity="0.45">
       <animate attributeName="r" values="36;46;36" dur="3s" repeatCount="indefinite"/>
@@ -138,9 +138,6 @@
         <animateMotion dur="3.2s" repeatCount="indefinite" path="M-58 0 A58 18 0 1 0 58 0 A58 18 0 1 0 -58 0"/>
       </circle>
     </g>
-
-    <!-- Micro Orbit Label -->
-    <text y="58" text-anchor="middle" fill="#64748B" font-family="Consolas, monospace" font-size="9" font-weight="700" letter-spacing="1.5">ORBIT // ACTIVE</text>
   </g>
 
   <!-- Right: Holographic Terminal Box -->
