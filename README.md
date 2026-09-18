@@ -1,9 +1,6 @@
 <p align="center">
   <img src="./assets/hero-header.svg" alt="Segun Arulogun Gabriel (Shigosag) - Software Engineer and Full Stack Architect" width="100%" />
 </p>
-<p align="center">
-  <img src="./assets/chess-strategy.svg" alt="Segun Arulogun Gabriel (Shigosag) - Strategic Engineering & Tactical Architecture" width="100%" />
-</p>
 
 # Hi, I'm Segun Arulogun Gabriel (Shigosag)
 
@@ -12,6 +9,10 @@ Segun Arulogun Gabriel, known as Shigosag, is an entrepreneur, civil engineering
 💻 AI-Assisted Software Developer  
 🚀 Building AI-assisted web, mobile, desktop applications, automation systems and modern digital Solutions
 🧠 Passionate about technology, business, AI, and problem-solving
+
+<p align="center">
+  <img src="./assets/chess-strategy.svg" alt="Segun Arulogun Gabriel (Shigosag) - Strategic Engineering & Tactical Architecture" width="100%" />
+</p>
 
 ## 🔥 Skills
 - Web, Mobile, and Desktop Development
