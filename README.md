@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/hero-header.svg" alt="Segun Arulogun Gabriel (Shigosag) - Software Engineer and Full Stack Architect" width="100%" />
+</p>
+
 # Hi, I'm Segun Arulogun Gabriel (Shigosag)
 
 Segun Arulogun Gabriel, known as Shigosag, is an entrepreneur, civil engineering graduate, forex trader, self-taught software developer, and chess enthusiast.
