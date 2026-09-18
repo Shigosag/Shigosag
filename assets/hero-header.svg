@@ -108,7 +108,7 @@
   </g>
 
   <!-- Center: Rolling / Flipping Animated Tech Orbit -->
-  <g transform="translate(685, 188)">
+  <g transform="translate(650, 188)">
     <!-- Radial Core Glow -->
     <circle r="42" fill="url(#orbCore)" opacity="0.45">
       <animate attributeName="r" values="36;46;36" dur="3s" repeatCount="indefinite"/>
