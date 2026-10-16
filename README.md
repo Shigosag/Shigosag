@@ -10,6 +10,12 @@ Segun Arulogun Gabriel, known as Shigosag, is an entrepreneur, civil engineering
 🚀 Building AI-assisted web, mobile, desktop applications, automation systems and modern digital Solutions
 🧠 Passionate about technology, business, AI, and problem-solving
 
+<p align="left">
+  <a href="https://user-badge.committers.top/nigeria/Shigosag">
+    <img src="https://user-badge.committers.top/nigeria/Shigosag.svg" alt="committers.top badge">
+  </a>
+</p>
+
 <p align="center">
   <img src="./assets/chess-strategy.svg" alt="Segun Arulogun Gabriel (Shigosag) - Strategic Engineering & Tactical Architecture" width="100%" />
 </p>
