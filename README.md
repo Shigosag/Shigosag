@@ -4,7 +4,7 @@
 
 # Hi, I'm Segun Arulogun Gabriel (Shigosag)
 
-Segun Arulogun Gabriel, known as Shigosag, is an entrepreneur, civil engineering graduate, forex trader, self-taught software developer, and chess enthusiast.
+Segun Arulogun Gabriel, known as Shigosag, is an entrepreneur, self-taught software developer, civil engineering graduate, former forex trader, and chess enthusiast.
 
 💻 AI-Assisted Software Developer  
 🚀 Building AI-assisted web, mobile, desktop applications, automation systems and modern digital Solutions
